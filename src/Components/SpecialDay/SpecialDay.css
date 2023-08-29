@@ -1,0 +1,43 @@
+.banner-container {
+  position: relative;
+  text-align: left;
+  color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url(../../Assets/images/specialday.jpg);
+  height: auto;
+}
+
+.banner-image {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  background-attachment: fixed; 
+}
+
+.banner-contents {
+  padding: 100px;
+}
+
+.banner-contents h1 {
+  font-size: 36px;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.banner-contents p {
+  font-size: 40px;
+  font-weight: 350;
+}
+
+.banner-button {
+  color: white;
+  background-color: 'red';
+  padding: 10px 20px;
+  border-radius: 2;
+  cursor: pointer;
+  font-size: 16px;
+}

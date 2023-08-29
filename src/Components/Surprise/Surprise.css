@@ -1,0 +1,25 @@
+/* .sp_title_center {
+    font-size: 32px;
+    color: #150E4B;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.sp_surprise_wrapper li {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height:fit-content;
+} */
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}

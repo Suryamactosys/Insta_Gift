@@ -1,0 +1,20 @@
+.container1{
+    padding: 30px;
+    background-color: #F2F5F5;
+}
+.font{
+    font-size : 30px;
+}
+.card-body{
+    height: 15rem;
+    font-size: 12px;
+}
+.bi{
+    font-size: 30px;
+}
+.row{
+    text-align: center;
+}
+#p{
+    font-size: 15px;
+}

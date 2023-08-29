@@ -1,0 +1,12 @@
+.hero {
+    background-image: url(../../Assets/images/dashboardimg/dashboard-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    margin-top: 80px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,50 @@
+.sp_login_lt {
+    background-color: #ffffff;
+    width: 660px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 60px;
+    position: relative;
+    clip-path: polygon(0% 0, 100% 0, 60% 100%, 0% 100%);
+}
+
+.sp_login_inner {
+    background-image: url(../../Assets/images/loginimg/login-bg1.png);
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 710px;
+}
+
+.sp_login_lt h2 {
+    color: #FA2947;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 63px;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.sp_login_title p {
+    padding-bottom: 30px;
+    padding-right: 110px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #4C4D4D;
+    opacity: 0.8;
+}
+
+.sp_login_inner .sp_btn {
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.sp_signup_text p {
+    margin-left: 20px;
+}

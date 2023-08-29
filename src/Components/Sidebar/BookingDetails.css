@@ -1,0 +1,14 @@
+.card.sp_dashboard_box .card-header h5 {
+    font-size: 15px !important;
+    font-weight: 600;
+    letter-spacing: 1.01px;
+}
+
+.sp_form_field {
+    position: relative;
+    text-align: left;
+}
+
+.card.sp_dashboard_box {
+    border: 1px solid #e2e9e1;
+}
