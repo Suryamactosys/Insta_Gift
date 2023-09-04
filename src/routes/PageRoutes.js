@@ -10,11 +10,11 @@ import Wallet from '../Components/Sidebar/Wallet';
 import BookingDetails from '../Components/Sidebar/BookingDetails';
 import Profile from '../Components/Sidebar/Profile';
 import ContactUs from '../Components/ContactUs/ContactUs';
-import ShopPage from '../Pages/ShopPage';
 import SpecialPage from '../Pages/SpecialPage';
 import RequireAuth from '../Components/RequireAuth/RequireAuth';
 import Editor from '../Pages/Editor';
 import Admin from '../Pages/Admin';
+import Shop from '../Pages/Shop';
 
 const ROLES = {
   'User': 2001,
@@ -27,7 +27,7 @@ const PageRoutes = () => {
     <>
       <Routes>
         <Route exact path='/' element={<HomePage />} />
-        <Route exact path='/shoppage' element={<ShopPage />} />
+        <Route exact path='/shop' element={<Shop />} />
         <Route exact path='/specialpage' element={<SpecialPage />} />
         <Route exact path='/contactus' element={<ContactUs />} />
         <Route exact path='/loginpage' element={<LoginPage />} />

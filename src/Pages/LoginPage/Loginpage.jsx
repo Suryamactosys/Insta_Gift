@@ -20,8 +20,8 @@ const LoginPage = () => {
     //   }, []);  
 
     // useEffect(() => {
-    //     const accessToken = 'your_access_token_here';
-    //     const refreshToken = 'your_refresh_token_here';
+    //     const accessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTAsImVtYWlsIjoiYW1hbkBnbWFpbC5jb20iLCJ0eXBlIjoiYWRtaW4iLCJpYXQiOjE2OTM2MzQ3NTEsImV4cCI6MTY5MzYzNTY1MX0.0s-SijmOyTmpBBAKxtLfnjT1DNNWOxMuMJtZOfdENCc';
+    //     const refreshToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2OTM2MzQ3NTEsImV4cCI6MTY5NDIzOTU1MX0.HTWEHOp40QEmgjn5vtPPrIQ-MSVilC5fVA-ciMkcyV0';
     //     Cookies.set('access_token', accessToken, { expires: 1 });
     //     Cookies.set('refresh_token', refreshToken, { expires: 7 });
     //   }, []);
@@ -58,7 +58,7 @@ const LoginPage = () => {
                 }
             );
             console.log(JSON.stringify(response?.data));
-            // console.log(JSON.stringify(response));
+            console.log(JSON.stringify(response));
             const accessToken = response?.data?.accessToken;
             const roles = response?.data?.roles;
             setAuth({ email, password, roles, accessToken });

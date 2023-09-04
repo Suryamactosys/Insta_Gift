@@ -1,8 +1,13 @@
 import React from 'react';
 import "./Sidebar.css";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Sidebar = () => {
+    const naviagte = useNavigate();
+    const logout = () => {
+        localStorage.clear();
+        naviagte('/loginpage');
+    }
     return (
         <div className="container">
             <div className="sp_dashboard_tabs sp_margin">
@@ -20,8 +25,8 @@ const Sidebar = () => {
                                     <Link to='bookingdetails'>Booking Details</Link></li>
                                 <li className="nav-link" id="v-pills-address-tab" data-bs-toggle="pill" data-bs-target="#v-pills-address" role="tab" aria-controls="v-pills-address" aria-selected="false" tabIndex="-1"><i className="bi bi-gear me-3"></i>
                                     <Link to='profile'>Profile</Link></li>
-                                <li className="nav-link" id="v-pills-logout-tab" data-bs-toggle="pill" data-bs-target="#v-pills-logout" role="tab" aria-controls="v-pills-logout" aria-selected="false" tabIndex="-1"><i className="bi bi-box-arrow-right me-3"></i>
-                                    <Link to="/loginpage">Log out</Link></li>
+                                <li className="nav-link" id="v-pills-logout-tab" data-bs-toggle="pill" data-bs-target="#v-pills-logout" role="tab" aria-controls="v-pills-logout" aria-selected="false" tabIndex="-1" onClick={logout}><i className="bi bi-box-arrow-right me-3"></i>
+                                    Log out</li>
                             </ul>
                         </div>
                     </div>
