@@ -64,10 +64,10 @@ const Footer = () => {
                 <div className="footer-content">
                     <p>© 2023 All rights reseverd</p>
                     <ul className="footer-links">
-                        <li><a href="" className="text-white me-4"><i className="bi bi-facebook"></i></a></li>
-                        <li><a href="" className="text-white me-4"><i className="bi bi-instagram"></i></a></li>
-                        <li><a href="" className="text-white me-4"><i className="bi bi-youtube"></i></a></li>
-                        <li><a href="" className="text-white me-4"><i className="bi bi-twitter"></i></a></li>
+                        <li><a href="/" className="text-white me-4"><i className="bi bi-facebook"></i></a></li>
+                        <li><a href="/" className="text-white me-4"><i className="bi bi-instagram"></i></a></li>
+                        <li><a href="/" className="text-white me-4"><i className="bi bi-youtube"></i></a></li>
+                        <li><a href="/" className="text-white me-4"><i className="bi bi-twitter"></i></a></li>
                     </ul>
                 </div>
             </footer>

@@ -12,7 +12,7 @@ const Content = () => {
                     <div className="sp_choose_box sp_choose_box_shadwo d-flex">
                         <div className="box_inner">
                             <div className="sp_choose_icon">
-                                <img src={customer} width="34px" alt="image" /></div>
+                                <img src={customer} width="34px" alt="" /></div>
                             <div className="text-center">
                                 <h2 className="counter" data-target="12000">12000</h2>
                                 <h5>Customers</h5>
@@ -27,7 +27,7 @@ const Content = () => {
                 <div className="col-sm-4 justify-content-center">
                     <div className="sp_choose_box sp_choose_box_shadwo d-flex">
                         <div className="box_inner">
-                            <div className="sp_choose_icon"><img src={packing} width="34px" alt="image" /></div>
+                            <div className="sp_choose_icon"><img src={packing} width="34px" alt="" /></div>
                             <div className="text-center">
                                 <h2 className="counter" data-target="32000">32000</h2>
                                 <h5>Orders</h5>
@@ -42,7 +42,7 @@ const Content = () => {
                 <div className="col-sm-4">
                     <div className="sp_choose_box sp_choose_box_shadwo d-flex">
                         <div className="box_inner">
-                            <div className="sp_choose_icon"><img src={handshak} width="34px" alt="image" /></div>
+                            <div className="sp_choose_icon"><img src={handshak} width="34px" alt="" /></div>
                             <div className="text-center">
                                 <h2 className="counter" data-target="4000">4000</h2>
                                 <h5>Partners</h5>

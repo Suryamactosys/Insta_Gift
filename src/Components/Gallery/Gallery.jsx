@@ -25,16 +25,16 @@ const Gallery = () => {
     </div>
       <Slider {...settings}>
       <div>
-        <img src={banner01} alt="Image 1" style={{height:'350px'}} />
+        <img src={banner01} alt="" style={{height:'350px'}} />
       </div>
       <div>
-        <img src={banner02} alt="Image 2" style={{height:'350px'}} />
+        <img src={banner02} alt="" style={{height:'350px'}} />
       </div>
       <div>
-        <img src={banner03} alt="Image 3" style={{height:'350px'}} />
+        <img src={banner03} alt="" style={{height:'350px'}} />
       </div>
       <div>
-        <img src={banner04} alt="Image 4" style={{height:'350px'}} />
+        <img src={banner04} alt="" style={{height:'350px'}} />
       </div>
       </Slider>
     </div>
