@@ -1,77 +1,60 @@
 import React from 'react';
-import { useState } from 'react';
+import call from '../../Assets/images/svg/call-icon.svg';
+import email from '../../Assets/images/svg/email-icon.svg';
+import location from '../../Assets/images/svg/location-icon.svg';
 
 const Contact = () => {
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [subject, setSubject] = useState('');
-    const [text, setText] = useState('');
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-    }
-    return (
-        <div className='container'>
-            <div className="row">
-                    <div className="col-md 5">
-                        {/* <img src="/Assets/images/contact.png" alt="Contact Us" height="300px" width="300px" /> */}
-                        <h4>CONTACT US</h4>
-                        <h1>How Can I Help You?</h1>
-                        <p>Our service helps you live smarter, giving you time to focus on<br/> what's most important. Our skilled professionals go above<br/> and beyond on every job.</p>
-                        <div className="mb-3">
-                            <span><i className="bi bi-telephone"></i><input type="text"  placeholder="+123 - 433 - 123" /></span>
-                        </div>
-                        <div className="mb-3">
-                        <i className="bi bi-envelope"></i><input type="text"  placeholder="hello@company.com" />
-                        </div>
-                        <div className="mb-3">
-                        <i className="bi bi-geo-alt"></i><input type="text"  placeholder="JKT, Indonesia" />
-                        </div>
-                    </div>
-                    <div className="col-md-6">
-                        <form onSubmit={handleSubmit}>
-                            <div className="mb-3">
-                                <input 
-                                type="text" 
-                                className="form-control" 
-                                placeholder="Full name" 
-                                value={name} 
-                                onChange={(e) => setName(e.target.value)} 
-                                required />
-                            </div>
-                            <div className="mb-3">
-                                <input 
-                                type="email" 
-                                className="form-control" 
-                                placeholder="Email address" 
-                                value={email} 
-                                onChange={(e) => setEmail(e.target.value)} 
-                                required />
-                            </div>
-                            <div className="mb-3">
-                                <input 
-                                type="text" 
-                                className="form-control" 
-                                placeholder="Subject" 
-                                value={subject} 
-                                required 
-                                onChange={(e) => setSubject(e.target.value)} />
-                            </div>
-                            <div className="mb-3">
-                                <textarea 
-                                className="form-control" rows="5" 
-                                value={text} 
-                                onChange={(e) => setText(e.target.value)}>
-                                </textarea>
-                            </div>
-                            <div className='d-grid'>
-                            <button type="submit" className="btn btn-danger">Submit</button>
-                            </div>
-                        </form>
-                    </div>
+  return (
+    <div className="sp_help_wrapper sp_margin aos-init aos-animate" style={{margin:'0px'}}>
+      <div className="container">
+        <div className="row gy-4">
+          <div className="col-sm-6">
+            <div className="sp_help_inner_lt">
+              <span className="sp_title_top text-uppercase">contact us</span>
+              <h1 className="sp_title_center">Let takabam help you</h1>
+              <p className="sp_subcontent text-start">Our services help you offer a surprise to your loved ones, secretly without them knowing that you paid for a service or good they are ready to consume or buy. Our skilled takabam professionals go above and beyond on every job, so you can feel happy because you made your loved ones very very happy and joyful.</p>
+              <ul>
+                <li>
+                  <a href="tel:+123-433-123"> <img className="me-2" src={call} alt="image" />+123-433-123</a>
+                </li>
+                <li><a href="#"><img className="me-2" src={email} alt="image" />hello@Company.com</a></li>
+                <li><img className="me-2" src={location} alt="image" />JKT, Indonesia </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-sm-6">
+            <div className="sp_help_inner">
+              <form>
+                <div className="mb-3">
+                  <div className="sp_form_field">
+                    <input type="text" className="form-control" placeholder="Full name" name="name" />
+                  </div>
                 </div>
+                <div className="mb-3 mt-3">
+                  <div className="sp_form_field">
+                    <input type="text" className="form-control" placeholder="E-mail address" name="email" />
+                  </div>
+                </div>
+                <div className="mb-3 mt-3">
+                  <div className="sp_form_field">
+                    <input type="text" className="form-control" placeholder="Subject" name="location" />
+                  </div>
+                </div>
+                <div className="mb-3 mt-3">
+                  <div className="sp_form_field">
+                    <textarea name="msg" cols="30" rows="10" placeholder="Write us a message..."></textarea>
+                  </div>
+                </div>
+                <div className=" ">
+                  <button type="submit" className="sp_btn w-100">Submit</button>
+                </div>
+              </form>
+            </div>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
 export default Contact;

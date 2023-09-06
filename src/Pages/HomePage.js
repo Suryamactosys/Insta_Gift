@@ -14,9 +14,6 @@ import Client from '../Components/ClientPage/Client';
 import '../Components/ClientPage/Client.css';
 import Contact from '../Components/Contact/Contact';
 import Surprise from '../Components/Surprise/Surprise';
-// import Demo from '../Components/Demo/Demo';
-// import Demo from '../Components/Sidebar/Demo';
-// import Test from '../Components/Sidebar/Test';
 
 const HomePage = () => {
   return (
@@ -36,19 +33,16 @@ const HomePage = () => {
       <div style={{ textAlign: 'center', backgroundColor: '#F2F5F5', padding: '40px', }}>
         <Content />
       </div>
+      <Gallery />
       <div className="banner-container">
         <Specialday />
       </div>
       <div className='container1'>
         <Client />
       </div>
-      <Gallery />
-      <div style={{ padding: '50px', background: '#F2F5F5' }}>
+      <div style={{paddingTop:'0px', background: '#F2F5F5' }}>
         <Contact />
       </div>
-      {/* <Test /> */}
-      {/* <Demo /> */}
-      {/* <Demo/> */}
     </div>
   )
 }

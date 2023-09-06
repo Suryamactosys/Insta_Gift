@@ -1,12 +1,12 @@
 import React from 'react';
-import bnner_image_2 from '../../Assets/images/bnner-image-2.jpg';
+import bnner_image_2 from '../../Assets/images/Surprise.jpg';
 import './Surprise.css';
 
 const Surprise = () => {
     return (
         <div className="row">
             <div className="col-md 5">
-                <img className="img" src={bnner_image_2} alt="img" style={{ height: '380px', width: '380px' }} />
+                <img className="img" src={bnner_image_2} alt="img" style={{ height: '480px', width: '480px' }} />
             </div>
             <div className="col-md-6">
                 <div className='sp_title_center'>

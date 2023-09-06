@@ -2,19 +2,19 @@
     position: relative;
     text-align: left;
     color: black;
-    padding-top: 70px;
+    padding-top:92px;
     /* background-image: url(../../Assets/images/celebration-holiday-present.jpg); */
   }
   
   .banner-image {
-    width: 100%;
-    height: auto;
+    width:fit-content;
+    height: 850px;
     object-fit: cover;
   }
   
   .banner-content {
     position: absolute;
-    top: 180px;
+    top: 150px;
     right: 120px;
     padding: 20px;
     background-color: transparent;
@@ -40,3 +40,4 @@
     cursor: pointer;
     font-size: 16px;
   }
+  

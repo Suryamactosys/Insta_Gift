@@ -2,10 +2,16 @@ import React from 'react';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Slider from 'react-slick';
-import banner01 from '../../Assets/images/slidergallery/banner01.jpg';
-import banner02 from '../../Assets/images/slidergallery/banner02.jpg';
-import banner03 from '../../Assets/images/slidergallery/banner03.jpg';
-import banner04 from '../../Assets/images/slidergallery/banner04.jpg';
+import gallery_1 from '../../Assets/images/slidergallery/gallery1.jpg';
+import gallery_2 from '../../Assets/images/slidergallery/gallery2.jpg';
+import gallery_3 from '../../Assets/images/slidergallery/gallery3.jpg';
+import gallery_4 from '../../Assets/images/slidergallery/gallery4.jpg';
+import gallery_5 from '../../Assets/images/slidergallery/gallery5.png';
+import gallery_6 from '../../Assets/images/slidergallery/gallery6.jpg';
+import gallery_7 from '../../Assets/images/slidergallery/gallery7.png';
+import gallery_8 from '../../Assets/images/slidergallery/gallery8.png';
+import gallery_9 from '../../Assets/images/slidergallery/gallery9.png';
+import gallery_10 from '../../Assets/images/slidergallery/gallery10.png';
 
 const Gallery = () => {
   const settings = {
@@ -17,25 +23,43 @@ const Gallery = () => {
   };
 
   return (
-    <div style={{textAlign:'center', backgroundColor:'#F2F5F5', padding:'20px'}}>
-    <div>
-        <h1>Our Gallery</h1>
-        <p>Lorem ipsum dolor sit amet consectetur. Arcu ac sed id<br/>
-           interdum tortor. Nisl ipsum dictumst dictum aliquet.</p>
-    </div>
+    <div style={{ textAlign: 'center', backgroundColor: '#F2F5F5', padding: '40px' }}>
+      <div>
+        <h1>Takabam Moments</h1>
+        <p>Make you loved ones happy all over the world .<br />
+          Paying for a service or item they are about to purchase themselve.</p>
+      </div>
       <Slider {...settings}>
-      <div>
-        <img src={banner01} alt="" style={{height:'350px'}} />
-      </div>
-      <div>
-        <img src={banner02} alt="" style={{height:'350px'}} />
-      </div>
-      <div>
-        <img src={banner03} alt="" style={{height:'350px'}} />
-      </div>
-      <div>
-        <img src={banner04} alt="" style={{height:'350px'}} />
-      </div>
+        <div>
+          <img src={gallery_1} alt="" style={{ height: '350px' }} />
+        </div>
+        <div>
+          <img src={gallery_2} alt="" style={{ height: '350px' }} />
+        </div>
+        <div>
+          <img src={gallery_3} alt="" style={{ height: '350px' }} />
+        </div>
+        <div>
+          <img src={gallery_4} alt="" style={{ height: '350px' }} />
+        </div>
+        <div>
+          <img src={gallery_5} alt="" style={{ height: '350px' }} />
+        </div>
+        <div>
+          <img src={gallery_6} alt="" style={{ height: '350px' }} />
+        </div>
+        <div>
+          <img src={gallery_7} alt="" style={{ height: '350px' }} />
+        </div>
+        <div>
+          <img src={gallery_8} alt="" style={{ height: '350px' }} />
+        </div>
+        <div>
+          <img src={gallery_9} alt="" style={{ height: '350px' }} />
+        </div>
+        <div>
+          <img src={gallery_10} alt="" style={{ height: '350px' }} />
+        </div>
       </Slider>
     </div>
   );

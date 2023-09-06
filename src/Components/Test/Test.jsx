@@ -7,7 +7,7 @@ const Demo = () => {
     const auth = localStorage.getItem('user');
 
     return (
-        <nav className="navbar navbar-expand-lg sp_navbar bg-light">
+        <nav className="navbar navbar-expand-lg sp_navbar position-fixed">
             <div className="container">
                 <Link to="/">
                     <img src={logo} alt="img" />
@@ -31,7 +31,7 @@ const Demo = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link fs-5" to="/" aria-label="A sample content page">
+                            <Link className="nav-link fs-5" to="/shop" aria-label="A sample content page">
                                 Business
                             </Link>
                         </li>
@@ -41,7 +41,7 @@ const Demo = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link fs-5" to="/contact-us" aria-label="A system message page">
+                            <Link className="nav-link fs-5" to="/contactus" aria-label="A system message page">
                                 Contact us
                             </Link>
                         </li>
@@ -57,7 +57,7 @@ const Demo = () => {
                             <li>
                                 <div className="sp_client_name">
                                     <div>
-                                        <img src={pro_img} width="50px" alt="image" />
+                                        <img src={pro_img} width="50px" alt="" />
                                     </div>
                                     <div>
                                         <h6>Surya</h6>
@@ -99,7 +99,7 @@ const Demo = () => {
                     </div>
                 ) : (
                     <div className="dropdown">
-                        <Link to="/loginpage" className="sp_outline-btn">
+                        <Link to="/loginpage" className="sp_outline-btn" style={{textDecoration:'none'}}>
                             Login
                         </Link>
                     </div>

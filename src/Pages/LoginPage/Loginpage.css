@@ -1,9 +1,9 @@
 .sp_login_inner {
-    background-image: url(../../Assets/images/loginimg/login-bg1.png);
+    background-image: url(../../Assets/images/loginimg/login-bg.png);
     background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 710px;
+    height: 700px;
 }
 
 .sp_login_lt {

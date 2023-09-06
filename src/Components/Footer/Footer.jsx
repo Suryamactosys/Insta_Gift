@@ -1,64 +1,73 @@
 import React from 'react';
-import gifts3 from '../../Assets/images/gift_3.png';
-import Image_poster_2 from '../../Assets/images/Image-poster-2.png';
-import image_postser_1 from '../../Assets/images/image-postser-1.png';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import logo from '../../Assets/images/logo.svg';
+import img_1 from '../../Assets/images/footerimg/footer-img.jpg';
+import img_2 from '../../Assets/images/footerimg/footer-img2.jpg';
+import img_3 from '../../Assets/images/footerimg/footer-img3.jpg';
+import img_4 from '../../Assets/images/footerimg/footer-img4.jpg';
 import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+
     return (
-        <div style={{ paddingTop: '100px' }}>
-            <footer className="text-center text-lg-start text-dark">
-                <section className="">
-                    <div className="container text-center text-md-start mt-5">
-                        <div className="row mt-3">
-                            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                                <img src={logo} alt="" />
-                                <p>
-                                    Our Curated Collection Of Surprises Is Designed To Cater To Every Taste And Preference.
-                                </p>
-                                <h4>Our Office</h4>
-                                <p><i className="fas fa-home mr-3"></i> 5872 Main St Williamsville</p>
-                                <p><i className="fas fa-envelope mr-3"></i> North Dakota 14221 United States</p>
+        <div style={{backgroundColor:'#F2F5F5' }}>
+            <footer className='sp_footer2_wrapper'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-sm-4">
+                            <div className="sp_footer_links">
+                                <h2>
+                                    <a href="/">
+                                        <img src={logo} alt="" />
+                                    </a>
+                                </h2>
+                                <p className="m-0 sp_footer_title">Our curated collection of surprises is designed to cater to every taste and preference. </p>
+                                <h3 className="mt-3">Our Office</h3>
+                                <p>5872 Main St Williamsville <br /> North Dakota 14221 United States</p>
                             </div>
-
-                            <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-
-                                <h6 className="text-uppercase fw-bold">QUICK LINKS</h6>
-                                <p>
-                                    <Link to="/home" style={{ textDecoration: 'none' }} className="text-dark">Home</Link>
-                                </p>
-                                <p>
-                                    <Link to="/home" style={{ textDecoration: 'none' }} className="text-dark">Shop</Link>
-                                </p>
-                                <p>
-                                    <Link to="/home" style={{ textDecoration: 'none' }} className="text-dark">Special</Link>
-                                </p>
-                                <p>
-                                    <Link to="/contact" style={{ textDecoration: 'none' }} className="text-dark">Contact Us</Link>
-                                </p>
+                        </div>
+                        <div className="col-sm-4">
+                            <div className="sp_footer_links sp_footer_link2">
+                                <h3>Quick Links</h3>
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Business</a></li>
+                                    <li><a href="#">Members</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
                             </div>
-                            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-                                <h6 className="text-uppercase fw-bold">QUICK VIEW</h6>
-                                <div className="carousel slide" data-bs-ride="carousel">
+                        </div>
+                        <div className="col-sm-4">
+                            <div className="sp_footer_links" style={{paddingBottom:'25px'}}>
+                                <h3 className="mt-3 mt-md-0">Surprise Them</h3>
+                                <Slider {...settings}>
                                     <div>
-                                        <div className="carousel-item active">
-                                            <img src={gifts3} alt="img" className="image" />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img src={Image_poster_2} alt="img" className="image" />
-                                        </div>
-                                        <div className="carousel-item">
-                                            <img src={image_postser_1} alt="img" className="image" />
-                                        </div>
+                                        <img src={img_1} alt="" />
                                     </div>
-                                </div>
+                                    <div>
+                                        <img src={img_2} alt="" />
+                                    </div>
+                                    <div>
+                                        <img src={img_3} alt="" />
+                                    </div>
+                                    <div>
+                                        <img src={img_4} alt="" />
+                                    </div>
+                                </Slider>
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
             </footer>
             <footer className="footer1">
                 <div className="footer-content">
