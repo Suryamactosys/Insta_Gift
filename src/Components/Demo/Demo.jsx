@@ -13,7 +13,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="navbar navbar-expand-lg sp_navbar bg-light">
+        <nav className="navbar navbar-expand-lg sp_navbar">
             <div className="container">
                 <div>
                     <Link to="/"><img src={logo} alt="img" /></Link>
@@ -29,7 +29,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link fs-5" to="/" aria-label="A sample content page">
+                            <Link className="nav-link fs-5" to="/shop" aria-label="A sample content page">
                                 Business
                             </Link>
                         </li>

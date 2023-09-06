@@ -36,7 +36,7 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="col-sm-4">
-                            <div className="sp_footer_links sp_footer_link2">
+                            <div className="sp_footer_links">
                                 <h3>Quick Links</h3>
                                 <ul>
                                     <li><a href="/">Home</a></li>
