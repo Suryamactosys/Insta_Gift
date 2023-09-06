@@ -7,7 +7,6 @@ import img_1 from '../../Assets/images/footerimg/footer-img.jpg';
 import img_2 from '../../Assets/images/footerimg/footer-img2.jpg';
 import img_3 from '../../Assets/images/footerimg/footer-img3.jpg';
 import img_4 from '../../Assets/images/footerimg/footer-img4.jpg';
-import { Link } from 'react-router-dom';
 import './Footer.css';
 
 const Footer = () => {
@@ -40,10 +39,10 @@ const Footer = () => {
                             <div className="sp_footer_links sp_footer_link2">
                                 <h3>Quick Links</h3>
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Business</a></li>
-                                    <li><a href="#">Members</a></li>
-                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="/">Business</a></li>
+                                    <li><a href="/">Members</a></li>
+                                    <li><a href="/">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>

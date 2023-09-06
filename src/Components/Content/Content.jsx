@@ -27,7 +27,7 @@ const Content = () => {
                       <img
                         src={customer}
                         width="34px"
-                        alt="image"
+                        alt=""
                       />
                     </div>
                     <div className="text-center">
@@ -53,7 +53,7 @@ const Content = () => {
                       <img
                         src={packing}
                         width="34px"
-                        alt="image"
+                        alt=""
                       />
                     </div>
                     <div className="text-center">
@@ -79,7 +79,7 @@ const Content = () => {
                       <img
                         src={handshak}
                         width="34px"
-                        alt="image"
+                        alt=""
                       />
                     </div>
                     <div className="text-center">

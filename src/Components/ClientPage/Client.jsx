@@ -32,7 +32,7 @@ const Client = () => {
               <div className="swiper-button-next" tabIndex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-399c2db61ff4111b"></div>
               <div className="swiper-button-prev" tabIndex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-399c2db61ff4111b"></div>
               <p className="text-end m-0">
-                <a href="">See all</a>
+                <a href="/">See all</a>
               </p>
             </div>
           </div>
@@ -42,24 +42,24 @@ const Client = () => {
           <div className="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" data-swiper-slide-index="0" style={{ width: '252px', marginRight: '20px' }}>
             <div className="sp_client_box">
               <div className="sp_client_img">
-                <img src={client_img} alt="image" className="img-fluid" />
+                <img src={client_img} alt="" className="img-fluid" />
               </div>
               <div className="sp_rating mb-2">
                 <ul className="list-unstyled">
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                 </ul>
               </div>
@@ -76,24 +76,24 @@ const Client = () => {
           <div className="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" data-swiper-slide-index="0" style={{ width: '252px', marginRight: '20px' }}>
             <div className="sp_client_box">
               <div className="sp_client_img">
-                <img src={client_img} alt="image" className="img-fluid" />
+                <img src={client_img} alt="" className="img-fluid" />
               </div>
               <div className="sp_rating mb-2">
                 <ul className="list-unstyled">
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                 </ul>
               </div>
@@ -110,24 +110,24 @@ const Client = () => {
           <div className="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" data-swiper-slide-index="0" style={{ width: '252px', marginRight: '20px' }}>
             <div className="sp_client_box">
               <div className="sp_client_img">
-                <img src={client_img} alt="image" className="img-fluid" />
+                <img src={client_img} alt="" className="img-fluid" />
               </div>
               <div className="sp_rating mb-2">
                 <ul className="list-unstyled">
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                 </ul>
               </div>
@@ -144,24 +144,24 @@ const Client = () => {
           <div className="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" data-swiper-slide-index="0" style={{ width: '252px', marginRight: '20px' }}>
             <div className="sp_client_box">
               <div className="sp_client_img">
-                <img src={client_img} alt="image" className="img-fluid" />
+                <img src={client_img} alt="" className="img-fluid" />
               </div>
               <div className="sp_rating mb-2">
                 <ul className="list-unstyled">
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                 </ul>
               </div>
@@ -178,24 +178,24 @@ const Client = () => {
           <div className="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" data-swiper-slide-index="0" style={{ width: '252px', marginRight: '20px' }}>
             <div className="sp_client_box">
               <div className="sp_client_img">
-                <img src={client_img} alt="image" className="img-fluid" />
+                <img src={client_img} alt="" className="img-fluid" />
               </div>
               <div className="sp_rating mb-2">
                 <ul className="list-unstyled">
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                 </ul>
               </div>
@@ -212,24 +212,24 @@ const Client = () => {
           <div className="swiper-slide swiper-slide-active" role="group" aria-label="1 / 5" data-swiper-slide-index="0" style={{ width: '252px', marginRight: '20px' }}>
             <div className="sp_client_box">
               <div className="sp_client_img">
-                <img src={client_img} alt="image" className="img-fluid" />
+                <img src={client_img} alt="" className="img-fluid" />
               </div>
               <div className="sp_rating mb-2">
                 <ul className="list-unstyled">
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                   <li>
-                    <img src={star} alt="image" />
+                    <img src={star} alt="" />
                   </li>
                 </ul>
               </div>

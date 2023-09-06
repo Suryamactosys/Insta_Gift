@@ -15,10 +15,10 @@ const Contact = () => {
               <p className="sp_subcontent text-start">Our services help you offer a surprise to your loved ones, secretly without them knowing that you paid for a service or good they are ready to consume or buy. Our skilled takabam professionals go above and beyond on every job, so you can feel happy because you made your loved ones very very happy and joyful.</p>
               <ul>
                 <li>
-                  <a href="tel:+123-433-123"> <img className="me-2" src={call} alt="image" />+123-433-123</a>
+                  <a href="tel:+123-433-123"> <img className="me-2" src={call} alt="" />+123-433-123</a>
                 </li>
-                <li><a href="#"><img className="me-2" src={email} alt="image" />hello@Company.com</a></li>
-                <li><img className="me-2" src={location} alt="image" />JKT, Indonesia </li>
+                <li><a href="/"><img className="me-2" src={email} alt="" />hello@Company.com</a></li>
+                <li><img className="me-2" src={location} alt="" />JKT, Indonesia </li>
               </ul>
             </div>
           </div>
