@@ -2,13 +2,13 @@
     position: relative;
     text-align: left;
     color: black;
-    padding-top:18px;
+    padding-top:80px;
     /* background-image: url(../../Assets/images/celebration-holiday-present.jpg); */
   }
   
-  .banner-image {
+  .banner-images {
     width:fit-content;
-    height: 850px;
+    height: 492px;
     object-fit: cover;
   }
   
