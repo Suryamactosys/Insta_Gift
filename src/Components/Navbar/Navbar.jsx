@@ -13,7 +13,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="navbar navbar-expand-lg sp_navbar">
+        <nav className="navbar navbar-expand-lg sp_navbar" style={{ position: "fixed" }}>
             <div className="container">
                 <div>
                     <Link to="/"><img src={logo} alt="img" /></Link>
