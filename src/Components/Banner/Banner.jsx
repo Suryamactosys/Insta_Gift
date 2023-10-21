@@ -6,7 +6,7 @@ import celebration_holiday_present from '../../Assets/images/banner-takabam.png'
 const Banner = () => {
   return (
     <>
-      <div className='banner-image'>
+      <div className='banner-images'>
         <img className='' src={celebration_holiday_present} alt="Banner" />
       </div>
       <div className="banner-content">
